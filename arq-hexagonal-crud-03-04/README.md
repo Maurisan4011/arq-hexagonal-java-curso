@@ -1,9 +1,13 @@
-# arq-hexagonal-crud-03-04
+# CURSO arq-hexagonal-crud-03-04
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+CRUD para "Ordenes" utilizando el patrón de Arquitectura Hexagonal (o Arquitectura de Puertos y Adaptadores) con el enfoque de Diseño Dirigido por el Dominio (DDD) en Java y Quarkus es un desafío interesante que te permitirá estructurar tu aplicación de manera modular y fácil de mantener.
 
-If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
 
+
+## Paso 1 : 
+        Crear la Entidad de Dominio Order~~~~
+
+Crea la entidad Order en el paquete de dominio.
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
