@@ -12,6 +12,8 @@ CRUD para "Ordenes" utilizando el patrón de Arquitectura Hexagonal (o Arquitect
         Puerto (application.ports)
 ## Paso 3 :
         Servicio de Dominio (application.service)
+## Paso 4 :
+        Implementar el Adaptador de Persistencia (adapter.out)
 
 ## Running the application in dev mode
 
