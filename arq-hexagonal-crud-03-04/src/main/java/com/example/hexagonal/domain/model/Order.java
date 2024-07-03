@@ -1,15 +1,13 @@
 package com.example.hexagonal.domain.model;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
 import java.util.Objects;
 
 @Entity
+@Table(name = "Order")
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,8 +23,6 @@ public class Order {
         this.description = description;
         this.orderDate = orderDate;
     }
-
-    // Getters and setters
 
 
     public Long getId() {
