@@ -5,7 +5,11 @@ CRUD para "Ordenes" utilizando el patrón de Arquitectura Hexagonal (o Arquitect
 
 
 ## Paso 1 : 
-        Crear la Entidad de Dominio Order~~~~
+        Crear la Entidad de Dominio Order
+        Crea la entidad Order en el paquete de dominio.
+## Paso 2 :
+        Crear el Repositorio de Dominio
+        Puerto (application.ports)
 
 Crea la entidad Order en el paquete de dominio.
 ## Running the application in dev mode
