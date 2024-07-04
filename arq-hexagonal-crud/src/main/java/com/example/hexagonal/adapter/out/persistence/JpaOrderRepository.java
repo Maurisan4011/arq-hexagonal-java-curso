@@ -1,6 +1,6 @@
 package com.example.hexagonal.adapter.out.persistence;
 
-import com.example.hexagonal.application.ports.OrderRepository;
+import com.example.hexagonal.application.port.OrderRepository;
 import com.example.hexagonal.domain.model.Order;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.persistence.EntityManager;
@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @ApplicationScoped
 @Transactional
-public class JpaOrderRepository implements OrderRepository  {
+public class JpaOrderRepository implements OrderRepository {
 
     @PersistenceContext
     private EntityManager entityManager;
