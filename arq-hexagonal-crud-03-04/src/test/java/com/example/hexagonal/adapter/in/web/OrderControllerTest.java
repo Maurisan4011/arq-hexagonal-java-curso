@@ -45,7 +45,7 @@ class OrderControllerTest {
                 .post("/orders")
                 .then()
                 .statusCode(201)
-                .body("description", is("Test Order"));
+                .body("id", is(order.getId()));
     }
 
     @Test
