@@ -2,7 +2,10 @@
 
 CRUD para "Ordenes" utilizando el patrón de Arquitectura Hexagonal (o Arquitectura de Puertos y Adaptadores) con el enfoque de Diseño Dirigido por el Dominio (DDD) en Java y Quarkus es un desafío interesante que te permitirá estructurar tu aplicación de manera modular y fácil de mantener.
 
-
+## CONFIGURACIONES PREVIAS :
+        JDK  version 17
+        QUARKUS version 3.11.3
+        MAVEN version 3.9.8
 
 ## Paso 1 : 
         Crear la Entidad de Dominio Order
@@ -17,6 +20,7 @@ CRUD para "Ordenes" utilizando el patrón de Arquitectura Hexagonal (o Arquitect
 ## Paso 5 :
         Implementar el Adaptador de API (adapter.in)
 
+## ------------------------
 
 ## Running the application in dev mode
 
