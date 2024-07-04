@@ -13,7 +13,7 @@ import java.util.Optional;
 @Path("/orders")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
-public class OrderResource {
+public class OrderController {
 
     @Inject
     OrderService orderService;
