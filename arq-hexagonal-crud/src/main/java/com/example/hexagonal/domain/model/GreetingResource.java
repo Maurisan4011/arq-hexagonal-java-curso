@@ -1,4 +1,4 @@
-package com.example.hexagonal;
+package com.example.hexagonal.domain.model;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;

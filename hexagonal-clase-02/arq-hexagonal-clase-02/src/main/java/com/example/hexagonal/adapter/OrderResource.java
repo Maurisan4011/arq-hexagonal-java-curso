@@ -2,7 +2,7 @@ package com.example.hexagonal.adapter;
 
 import com.example.hexagonal.domain.model.Order;
 import com.example.hexagonal.domain.model.OrderItem;
-import com.example.hexagonal.domain.service.OrderService;
+import com.example.hexagonal.application.OrderService;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
