@@ -1,4 +1,4 @@
-package com.example.hexagonal.domain;
+package com.example.hexagonal.domain.model;
 
 public class Product {
     private int productId;

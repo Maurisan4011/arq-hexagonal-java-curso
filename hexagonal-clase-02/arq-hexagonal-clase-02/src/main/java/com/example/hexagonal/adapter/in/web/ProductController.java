@@ -1,4 +1,4 @@
-package com.example.hexagonal.adapter;
+package com.example.hexagonal.adapter.in.web;
 
 import com.example.hexagonal.application.ProductService;
 import jakarta.inject.Inject;
@@ -8,12 +8,12 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
 @Path("/products")
-public class ProductResource {
+public class ProductController {
 
     private final ProductService productService;
 
     @Inject
-    public ProductResource(ProductService productService) {
+    public ProductController(ProductService productService) {
         this.productService = productService;
     }
 

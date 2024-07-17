@@ -1,7 +1,7 @@
 package com.example.hexagonal.domain.model;
-
-
 import jakarta.persistence.*;
+
+
 
 import java.time.LocalDateTime;
 import java.util.Objects;
